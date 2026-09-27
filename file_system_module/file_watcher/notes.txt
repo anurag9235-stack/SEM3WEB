@@ -1,0 +1,3 @@
+Hello World
+This is my notes file.
+I am learning Node.js File System module.

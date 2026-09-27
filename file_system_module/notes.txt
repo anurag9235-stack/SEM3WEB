@@ -1,0 +1,8 @@
+import fs from "fs";
+
+const content = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n".repeat(250000);
+
+fs.writeFileSync("content.txt", content);
+
+console.log("content.txt created successfully");
+console.log("Size:", fs.statSync("content.txt").size, "bytes");
